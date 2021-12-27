@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.dash-de {
+  grid-template-columns: "1fr 1fr 1fr";
+  text-align: center;
+  align-items: center;
+  display: "grid";
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+
+.main {
+  background-image: linear-gradient(blue, purple, pink);
+}
+
+.profile {
+  align-items: center;
+  color: rgb(64, 102, 56);
+  text-align: center;
+  padding-bottom: 18%;
+}
+.detail1 {
+  background-color: rgb(241, 125, 236);
+  color: blue;
+}
+
+.profile button {
+  margin-top: 40%;
+}
+
+.profile h2 {
+  font-size: 25px;
+  color: black;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
